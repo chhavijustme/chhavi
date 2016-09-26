@@ -74,6 +74,14 @@ body {
 .dc
 {color:#f15b5c !important;}
 
+.dchead
+{
+  color:#61c6bf !important;
+  font-size: 30px;
+  font-weight: 600; 
+
+}
+
 
 body{
   padding-top: 70px;
@@ -166,12 +174,12 @@ li.contact.active a {
 .headList{
 
    display: inline;
-   font-size:1.8em;
+   font-size:1.7em;
    padding-left: 10px;
    font-weight: 600;
 }
 
-#projectParallax { 
+#projectParallax {
     /* The image used */
     background-image: url("../img/1.png");
     background-color: #41b4e7;
