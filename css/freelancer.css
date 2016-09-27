@@ -8,6 +8,15 @@ body {
   color:#37474f ;
 
 }
+ li
+{
+  font-size:15px;
+  line-height: 24px;
+}
+ul
+{
+padding-left: 25px;
+}
 .filter-button{
   box-shadow: none !important;
   text-transform: uppercase;
@@ -159,7 +168,7 @@ li.writings.active a {
 }
 
 li.contact.active a {
-  background: #EF5350 !important ;
+  background: #f05355 !important ;
 }
 
 
@@ -214,6 +223,20 @@ li.contact.active a {
     /* The image used */
     background-image: url("../img/2.png");
     background-color: #59bc6b;
+    /* Set a specific height */
+    height: 50vh; 
+    padding: 0;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+}
+#contactParallax { 
+    /* The image used */
+    background-image: url("../img/3.png");
+    background-color: #f05355;
     /* Set a specific height */
     height: 50vh; 
     padding: 0;
