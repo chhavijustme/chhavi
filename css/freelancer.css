@@ -65,6 +65,23 @@ body {
 { color:#aed136 !important;
   }
 
+.fracgreen
+{ color:#aed136 !important;
+  font-size: 25px; 
+  font-weight: 600;
+  }
+.fracgrey
+{ color:#939598 !important;
+  font-size: 22px; 
+  font-weight: 600;
+  }
+.fracblack
+{ color:#231F20 !important;
+  font-size: 25px; 
+  font-weight: 600;
+  }
+
+
 .CHI
 {color:#5B5589 !important;}
 
