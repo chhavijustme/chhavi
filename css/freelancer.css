@@ -8,6 +8,15 @@ body {
   color:#37474f ;
 
 }
+ li
+{
+  font-size:15px;
+  line-height: 24px;
+}
+ul
+{
+padding-left: 25px;
+}
 .filter-button{
   box-shadow: none !important;
   text-transform: uppercase;
@@ -65,6 +74,23 @@ body {
 { color:#aed136 !important;
   }
 
+.fracgreen
+{ color:#aed136 !important;
+  font-size: 25px; 
+  font-weight: 600;
+  }
+.fracgrey
+{ color:#939598 !important;
+  font-size: 22px; 
+  font-weight: 600;
+  }
+.fracblack
+{ color:#231F20 !important;
+  font-size: 25px; 
+  font-weight: 600;
+  }
+
+
 .CHI
 {color:#5B5589 !important;}
 
@@ -73,6 +99,14 @@ body {
 
 .dc
 {color:#f15b5c !important;}
+
+.dchead
+{
+  color:#61c6bf !important;
+  font-size: 30px;
+  font-weight: 600; 
+
+}
 
 
 body{
@@ -134,7 +168,7 @@ li.writings.active a {
 }
 
 li.contact.active a {
-  background: #EF5350 !important ;
+  background: #f05355 !important ;
 }
 
 
@@ -166,12 +200,12 @@ li.contact.active a {
 .headList{
 
    display: inline;
-   font-size:1.8em;
+   font-size:1.7em;
    padding-left: 10px;
    font-weight: 600;
 }
 
-#projectParallax { 
+#projectParallax {
     /* The image used */
     background-image: url("../img/1.png");
     background-color: #41b4e7;
@@ -189,6 +223,20 @@ li.contact.active a {
     /* The image used */
     background-image: url("../img/2.png");
     background-color: #59bc6b;
+    /* Set a specific height */
+    height: 50vh; 
+    padding: 0;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+}
+#contactParallax { 
+    /* The image used */
+    background-image: url("../img/3.png");
+    background-color: #f05355;
     /* Set a specific height */
     height: 50vh; 
     padding: 0;
